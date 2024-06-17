@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100svh;
+    background-color: #111;
+}
+.landing-page h1{
+    font-size: 8.5vw;
+    line-height: 8vw;
+    text-transform: uppercase;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    
+      
+}
+.landing-page h1 svg{
+    background-color: #0DA34E;
+    border-radius: 50%;
+    height: 6vw;
+    width: 6vw;
+}
+.landing-page p{
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.3vw;
+  margin-top: 3vh;
+}
+.landing-page .last-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.landing-page .last-div h4{
+  border: 1px solid #767474;
+  border-radius: 40px;
+  text-align: center;
+  padding: 4px 8px;
+  font-weight: 200;
+  }
+  .landing-page .last-div h4:nth-last-child(2){
+    border: none;
+  padding: 2px;
+    }

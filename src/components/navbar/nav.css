@@ -1,0 +1,46 @@
+nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+}
+nav:hover .nav-bottom{
+    height: 100%;
+    bottom: -100%;
+}
+.nav-part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-part-2 h4{
+    padding: 0 0.8vw;
+    font-weight: 200;
+}
+.talk-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    background-color: #0DA34E;
+    border-radius: 30px;
+    padding: 1px 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.talk-btn svg{
+    width: 40px;
+    height: 40px;
+}
+.nav-bottom{
+    width: 84%;
+    height: 0%;
+   
+    border-bottom: 1px solid #dadada;
+    position: absolute;
+    bottom: 0%;
+    transition: all ease-in-out 0.5s;
+}
